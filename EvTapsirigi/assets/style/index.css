@@ -1,0 +1,15 @@
+.div1 h1{
+    text-align: center;
+}
+.div1 h2{
+    text-align: center;
+   padding: 40px;
+}
+.div2 p{
+    font-size: medium;
+    width: 80%;
+    text-align: right;
+    height: 40%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
