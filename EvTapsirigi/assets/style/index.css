@@ -1,15 +1,24 @@
-.div1 h1{
-    text-align: center;
+html {
+  background-image: linear-gradient(#c9fab9, white);
+  height: 100%;
 }
-.div1 h2{
-    text-align: center;
-   padding: 40px;
+h2,
+h1 {
+  font: italic 32px;
+  text-align: center;
 }
-.div2 p{
-    font-size: medium;
-    width: 80%;
-    text-align: right;
-    height: 40%;
-    display: inline-block;
-    margin-bottom: 50px;
+
+.container {
+  display: flex;
+}
+p {
+  background-color: rgb(86, 222, 74);
+}
+h3 {
+  display: block;
+  width: 100%;
+}
+.containerAboutandLink {
+  display: flex;
+  flex-direction: column;
 }
