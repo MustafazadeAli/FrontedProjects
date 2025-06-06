@@ -1,7 +1,11 @@
+p {
+  margin: 0;
+}
 html {
   background-image: url("../image/Dreamland.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  height: 100%;
 }
 body {
   margin: 0;
@@ -37,8 +41,18 @@ div p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: calc(100% - 72px);
 }
-.main1 {
+.mainButton {
   display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 20px;
+}
+.mainButton div {
+  background-color: brown;
+  border-radius: 5px;
+}
+.mainButton div p {
+  padding: 10px 16px;
 }
