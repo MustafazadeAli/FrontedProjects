@@ -1,5 +1,5 @@
 html {
-  background-image: url("../image/birthday-cake.jpg");
+  background-image: url("../image/Dreamland.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -34,7 +34,11 @@ div p {
 }
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.main1 {
+  display: flex;
 }
