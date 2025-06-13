@@ -1,0 +1,26 @@
+p{
+    color: black;
+}
+body{
+    height: 100%;
+}
+.navbar div{
+    display: flex;
+    flex-direction: row 
+}
+#space{
+    width: 200px;
+    border-radius: 3px;
+}
+.main{
+    background-color:#008f00;
+    width: calc(100%-16x);
+}
+.main div{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 10px;
+    margin: 10px 0;
+}
