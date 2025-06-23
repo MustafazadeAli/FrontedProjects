@@ -84,10 +84,3 @@ div.aboutServices > div > h2 {
 .dogHand img {
   width: 100px;
 }
-.dogHand img::before
-{
-  content: url(&#8592);
-}
-.dogHand img::after{
-  content: url(&#8594);
-}
