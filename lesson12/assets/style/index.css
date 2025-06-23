@@ -1,4 +1,4 @@
-/* Simple, combination, attribute, pseudo-classes, pseudo-elements  */
+/* Simple, combination, attribute, pseudo-classes, pseudo-elements  */More actions
 
 /* Simple */
 * {
@@ -83,4 +83,104 @@ div.aboutServices > div > h2 {
 
 .dogHand img {
   width: 100px;
+}
+
+#provide {
+  margin-top: 20px;
+}
+
+.dotPrevious,
+.dotNext {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border: 1px solid rgb(145, 22, 22);
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px black, -5px -5px 20px black;
+}
+
+.dogHand {
+  display: flex;
+  align-items: center;
+}
+
+.welcomeOurSite p {
+  color: black;
+  font: bold 16px sans-serif;
+  text-transform: uppercase;
+}
+
+.aboutCare {
+  padding: 10px 0;
+  width: 40%;
+}
+
+.aboutCare p {
+  color: rgb(132, 125, 125);
+  font: normal 14px sans-serif;
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+}
+
+.footerLinks div:not(:last-child) {
+  padding-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 20px 0;
+  background-color: black;
+}
+
+.footerLinks p,
+.privacyPolicy {
+  color: white;
+  font: bold 13px sans-serif;
+}
+.footerLinks div {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+.footerLinks div:not(:last-child)::after {
+  content: "|";
+  color: white;
+  font: bold 15px sans-serif;
+}
+
+.popularDogs {
+  margin: 100px 0 50px 0;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+.title p {
+  color: brown;
+  font: bold 24px sans-serif;
+  text-align: center;
+}
+
+.dogsImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.dogsImg div {
+  width: 30%;
+  height: 250px;
+}
+
+.dogsImg div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
