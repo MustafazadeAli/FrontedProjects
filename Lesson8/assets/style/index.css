@@ -1,0 +1,104 @@
+h1{
+    color: #4baba6;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+hr{
+    color: #e3e3e3;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+p{
+background-color: #4baba6;
+}
+.container{
+    width: 100%;
+    height: 60%;
+}
+.site{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.hangman{
+    position: relative;
+}
+.hangmanPhoto{
+    position: static;
+    position: absolute;
+}
+.hangmanWrite{
+     position: static;
+     height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 90px;
+}
+.rpgGame{
+    position: relative;
+}
+.rpgGamePhoto{
+    position: static;
+    position: absolute;
+}
+.rpgGameWrite{
+     position: static;
+     height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 90px;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-top: 300px;
+}
+.headphone{
+    position: relative;
+   
+}
+.headphonePhoto{
+    position: static;
+    position: absolute;
+    border: 2px solid black;
+}
+.headphoneWrite{
+  position: static;
+     height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 90px;   
+}
+.headphone2{
+    position: relative;
+}
+.headphone2Photo{
+    position: static;
+    position: absolute;
+}
+.headphone2Write{
+     position: static;
+     height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 90px;   
+}
