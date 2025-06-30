@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../image/bg.png");
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: white;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.392);
+  border-top: 1px solid rgba(128, 128, 128, 0.392);
+  position: fixed;
+  width: 100%;
+}
+
+.otherSheet {
+  display: flex;
+}
+
+.fullName {
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 70px;
+}
+
+.fullName p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--primaryFontFamily);
+}
+
+.otherSheet div {
+  padding-right: 25px;
+}
+
+.otherSheet div a {
+  color: gray;
+  font: normal 18px var(--primaryFontFamily);
+  transition: color linear 0.2s;
+}
+
+.otherSheet div:not(:last-child)::after {
+  content: "|";
+  padding-left: 25px;
+}
+
+.otherSheet div a:hover {
+  color: var(--primaryColor);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 {
+  width: 650px;
+}
+
+.section1 .projects {
+  background-color: white;
+}
+
+.projectsTitle > p {
+  color: var(--primaryColor);
+  font: bold 26px var(--primaryFontFamily);
+}
+
+.projectsInfo {
+  display: flex;
+}
+
+.projectsInfo div {
+  width: 100px;
+  height: 100px;
+}
+
+.projectsInfo div img {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  padding-top: 150px;
+}
