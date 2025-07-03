@@ -3,7 +3,7 @@
 }
 
 html {
-  background-image: url("../image/bg.png");
+  background-color: rgb(245, 247, 247);
   height: 100%;
   width: 100%;
 }
@@ -16,13 +16,14 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 80px;
   background-color: white;
   align-items: center;
   border-bottom: 1px solid rgba(128, 128, 128, 0.392);
   border-top: 1px solid rgba(128, 128, 128, 0.392);
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .otherSheet {
@@ -71,11 +72,14 @@ body {
 }
 
 .section1 {
-  width: 650px;
+  width: 65%;
+  display: flex;
+  gap: 30px;
 }
 
 .section1 .projects {
   background-color: white;
+  width: 70%;
 }
 
 .projectsTitle > p {
@@ -85,17 +89,126 @@ body {
 
 .projectsInfo {
   display: flex;
+  padding: 0px 30px 50px 30px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .projectsInfo div {
-  width: 100px;
-  height: 100px;
+  width: calc(50%-20px);
+  margin-right: 60px;
+  position: relative;
+  height: 200px;
 }
 
 .projectsInfo div img {
   width: 100%;
   height: 100%;
+ border-radius: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.267),
+  -5px -5px 8px rgba(0, 0, 0, 0.267);
+  object-fit: cover;
 }
 .main {
   padding-top: 150px;
+padding-bottom: 100px;
 }
+
+.projectsTitle p {
+  padding: 30px 0 10px 30px;
+}
+
+hr {
+  color: rgba(199, 188, 188, 0.458);
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.projectsInfo div p {
+  color: white;
+  font: bold 24px var(--primaryFontFamily);
+  background-color: var(--primaryColor);
+  display: flex;
+}
+
+.projectsInfo div p {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.projectsInfo div p:hover {
+  transform: scale(0.98);
+}
+
+.contactWithMe {
+  background-color: white;
+  padding: 30px;
+  width: 30%;
+  height: 250px;
+}
+
+.contactText p {
+  color: var(--primaryColor);
+  font: bold 24px var(--primaryFontFamily);
+  text-align: center;
+}
+
+.sosial-media {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.sosial-media a {
+  width: 33%;
+}
+
+.sosial-media a img {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.6s;
+}
+
+.sosial-media a img:hover {
+  transform: translate(10px, 10px);
+}
+
+.greenLine {
+  width: 100%;
+  background-color: var(--primaryColor);
+  height: 12px;
+}
+
+.copyrightText {
+  background-color: #666666;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyrightText p {
+  color: rgba(255, 255, 255, 0.581);
+  font: bold 15px var(--primaryFontFamily);
+  letter-spacing: 4px;
+}
+
+
+
+  .section1 {
+    width: 90%;
+  }
+  .cats{
+    padding-top: 100px;
+    width: 300px;
+    height: 300px;
+  }
