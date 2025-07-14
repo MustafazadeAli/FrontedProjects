@@ -1,0 +1,16 @@
+ table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+tr {
+   background-color: rgba(128, 128, 128, 0.322);
+}
+th{
+    color: rgb(0, 0, 0);
+}
+td{
+    color: rgb(0, 0, 0);
+}
