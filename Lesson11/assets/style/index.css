@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.telefon {
+    display: flex;
+}
+.telefon .card {
+    margin: 0 20px;
+}
+.card{
+    height: 60%;
+}
+.telefon img{
+    height: 35%;
+}
+.card-body{
+    height: 30%;
+}
